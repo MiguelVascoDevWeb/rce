@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razão Cintura-Estatura</title>
+    <link rel="stylesheet" href="rce.css">
+    <link rel="icon" href="img/icone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="rce.js"></script>
+
+    <h1>Razão Cintura-Estatura</h1>
+
+    <form action="">
+        <div>
+            <p>Digite sua altura (cm):</p>
+            <input type="text" id="alt">
+        </div>
+
+        <div>
+            <p>Digite a medida de sua cintura (cm):</p>
+            <input type="text" id="cin"><br>
+        </div>
+
+        <div>
+            <p>Gênero biológico:</p>
+            <select id="ge">
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="bnt" value="Enviar" onclick="rce1()">
+            <h4 id="result"></h4>
+        </div>
+
+    </form>
+</body>
+</html>
